@@ -11,8 +11,8 @@ class Choice(models.Model):
     votesCount = models.IntegerField(default=0)
 
 class Post(models.Model):
-    title = models.CharField(max_length = 100)
+    title = models.CharField(max_length = 100, null = True)
     postText = models.TextField()
     publishDate = models.DateTimeField(default = timezone.now)
-    author = models.CharField(max_length = 35)
+    author = models.CharField(max_length = 35, null = True)
 
