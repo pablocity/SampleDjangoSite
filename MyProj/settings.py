@@ -25,7 +25,7 @@ SECRET_KEY = '3(j*85-oj=!0rry^*7*ji3gs6)wplvgx)=#x7$pt0w@3#^tp-q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pablocity.pythonanywhere.com']
 
 
 # Application definition
